@@ -1,5 +1,11 @@
-const App: React.FC = () => {
-  return <p>Beat Sound Web</p>;
+import { Presentation } from './components/Presentation';
+
+const App = () => {
+  return (
+    <>
+      <Presentation />
+    </>
+  );
 };
 
 export default App;
