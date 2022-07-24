@@ -4,13 +4,17 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        fadeFromBotton: 'fadeFromBotton 1s ease-in-out',
-        fadeFromBotton1secDelay:
-          'fadeFromBotton 1s ease-in-out 1s normal forwards',
+        fadeFromBotton: 'fadeFromBotton 0.8s ease-in-out',
+        fadeFromBottonWithDelay: 'fadeFromBottomWithDelay 1.6s ease-in-out',
       },
       keyframes: {
         fadeFromBotton: {
-          '0%': { opacity: '0', transform: 'translateY(15px)' },
+          '0%': { opacity: '0', transform: 'translateY(25px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        fadeFromBottomWithDelay: {
+          '0%': { opacity: '0', transform: 'translateY(25px)' },
+          '50%': { opacity: '0', transform: 'translateY(25px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
       },
