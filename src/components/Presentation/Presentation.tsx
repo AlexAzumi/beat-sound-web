@@ -1,8 +1,8 @@
 const Presentation = () => {
   return (
-    <div className='flex w-screen h-screen justify-center items-center bg-blue-900'>
+    <div className='flex w-screen h-screen justify-center items-center bg-primary'>
       <div className='flex flex-col items-start w-1/2'>
-        <h1 className='text-6xl font-bold mb-10 text-white animate-fadeFromBotton'>
+        <h1 className='text-6xl text-white font-extrabold mb-10 drop-shadow-xl animate-fadeFromBotton'>
           Beat Sound
         </h1>
         <img

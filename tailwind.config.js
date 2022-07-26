@@ -3,6 +3,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      colors: {
+        primary: '#6C95FF',
+        dark: '#2D2D2D',
+      },
       animation: {
         fadeFromBotton: 'fadeFromBotton 0.8s ease-in-out',
         fadeFromBottonWithDelay: 'fadeFromBottomWithDelay 1.6s ease-in-out',
